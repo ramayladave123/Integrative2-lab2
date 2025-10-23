@@ -111,7 +111,7 @@ class RemoteProxy implements MediaSource {
 interface Renderer {
     void render(String mediaName);
 }
-
+ 
 class HardwareRenderer implements Renderer {
     @Override
     public void render(String mediaName) {
